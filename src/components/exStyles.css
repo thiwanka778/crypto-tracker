@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    border:0;
+    padding:0;
+}
+.a{
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+p{
+    font-family: 'Signika Negative', sans-serif;
+    font-weight:bold;
+    font-size:15px;
+}
+
+.ex-img{
+    width:60px;
+}
+.ex-title{
+    font-family: 'Signika Negative', sans-serif;
+    font-weight:bold;
+    font-size:22px;
+}
+.ex-loading{
+    padding:200px;
+    font-weight:bold;
+    color:blue;
+    font-size:30px;
+    margin-bottom:138px;
+}
+.ex-sub{
+    font-family: 'Signika Negative', sans-serif;
+    font-weight:bold;
+    font-size:15px;
+    color:gray;
+}
+.ex-value{
+    font-family: 'Signika Negative', sans-serif;
+    font-weight:bold;
+    font-size:15px;
+    color:black;
+}
+.ex-pop{
+    font-family: 'Signika Negative', sans-serif;
+    padding:10px;
+}
+.ex-pop>p{
+    font-family: 'Signika Negative', sans-serif;
+    padding:10px;
+}
+.pop-div{
+    display:flex;
+    align-items: center;
+    width:100%;
+    padding:20px;
+}
+.pop-img{
+    width:60px;
+    margin-right:20px;
+}
+.pop-p{
+    font-family: 'Signika Negative', sans-serif;
+    font-weight:bold;
+    font-size:24px;
+}
+.pop-title{
+    font-family: 'Signika Negative', sans-serif;
+    font-size:20px;
+    font-weight:bold;
+}

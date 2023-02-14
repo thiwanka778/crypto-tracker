@@ -1,0 +1,225 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.app{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.app-a{
+    background-color: #434345;
+    position: fixed;
+    width:270px;
+    height:900px;
+
+}
+.app-b{
+    flex:4;
+    padding-left : 270px;
+    display:flex;
+    flex-direction: column;
+   justify-content: center;
+    
+}
+.app-d{
+  margin-bottom:auto;
+}
+.app-e{
+  margin-top:auto;
+}
+
+.title-img{
+   display:flex;
+   width:270px; 
+   align-items:center;
+   justify-content: center;
+}
+
+.title{
+    color:white;
+    font-family: 'Rowdies', cursive;
+    font-size:30px;
+    margin-top:5px;
+    margin-bottom:30px;
+}
+.nav-b{
+    color:white;
+    display: flex;
+    flex-direction: column;
+}
+.tile{
+    
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    height:40px;
+    text-decoration: none;
+}
+.icon{
+    margin-left:5px;
+  margin-right:5px;
+  text-decoration: none;
+  color:white;
+}
+.text{
+    font-family: 'DynaPuff', cursive;
+    text-decoration: none;
+    color:white;
+}
+.tile:hover{
+    background-color: #58585c;
+}
+.tile.active{
+    background-color:#58585c;
+}
+.home{
+   display: flex;
+   flex-direction: column;
+}
+.home-a{
+ 
+  padding:5px;
+  margin-bottom:6px;
+}
+.home-b{
+    background: white;
+  
+  }
+  .home-c{
+    margin-top:auto;
+    padding-top:6px;
+    padding-bottom:6px;
+    background: #e1e3e6;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .home-c-title{
+    color:black;
+    font-family: 'Rowdies', cursive;
+    font-size:20px;
+  }
+  .home-c-all-right{
+    color:black;
+    font-weight:bold;
+    font-family: 'Oswald', sans-serif;
+  }
+  .home-c-part2{
+    display:flex;
+    width:300px;
+    padding-top:4px;
+    padding-bottom:4px;
+    padding-left:8px;
+    padding-right:8px;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+  .home-c-p{
+    font-family: 'DynaPuff', cursive;
+    font-size:12px;
+    text-decoration: none;
+    color:black;
+  }
+  .home-c-p.active{
+    color:blue;
+  }
+  .home-b-g{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .home-b-global{
+    font-family: 'Oswald', sans-serif;
+    font-size:20px;
+    padding:7px;
+    color:purple;
+  }
+  .home-b-part2{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+  }
+  .home-b-text{
+    font-family: 'Signika Negative', sans-serif;
+    font-weight:bold;
+    color:gray;
+    margin-bottom:4px;
+  }
+  .home-b-number{
+    font-family: 'Signika Negative', sans-serif;
+      font-size: 15px;
+      font-weight: bold;
+      margin-bottom:20px;
+  }
+  .home-b-text-loading{
+    font-family: 'Signika Negative', sans-serif;
+    font-weight:bold;
+   color:black;
+    margin-bottom:4px;
+    font-size: 25px;
+  }
+  .home-aa{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+.top-10-title{
+    font-family: 'Signika Negative', sans-serif;
+    font-weight:bold;
+   color:black;
+    margin-bottom:4px;
+    font-size: 25px;
+    margin-bottom:4px;
+}
+.top-10-show-more{
+    cursor: pointer;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight:bold;
+   color:blue;
+    margin-bottom:4px;
+    font-size: 16px;
+    margin-bottom:4px;
+}
+.container{
+    padding:5px;
+    display:grid;
+    grid-gap:10px;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    margin-bottom: 10px;
+}
+.news{
+  display:flex;
+  flex-direction: column;
+  padding-left:9px;
+  padding-right:9px;
+}
+.news-a{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.n1{
+  font-weight: bold;
+  font-size:20px;
+  font-family: 'Signika Negative', sans-serif;
+}
+.n2{
+  cursor: pointer;
+  color:blue;
+  font-weight:bold;
+  font-family: 'Signika Negative', sans-serif;
+}
+.news-b{
+  margin-top:10px;
+  margin-left:10px;
+  display:grid;
+  grid-gap:10px;
+  grid-template-columns: repeat(auto-fill,minmax(220px,1fr));
+  margin-bottom:6px;
+}

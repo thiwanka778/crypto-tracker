@@ -1,0 +1,354 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.card{
+    cursor: pointer;
+    width:200px;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.card-a{
+    padding-top:4px;
+    padding-bottom:4px;
+    display:flex;
+    align-items: center;
+}
+.card-a-title{
+    font-family: 'Signika Negative', sans-serif;
+    font-weight:bold;
+    margin-right:auto;
+    margin-left:3px;
+}
+.card-a-img{
+    width:30px;
+    margin-right:5px;
+}
+.card-b{
+    display:flex;
+    width:180px;
+   align-items: center;
+   justify-content: center;
+}
+.card-bb{
+    width:170px;
+    height:1px;
+    background-color: gray;
+    margin-bottom:9px;
+}
+.card-c{
+    display:flex;
+    flex-direction: column;
+   justify-content:space-between;
+}
+.card-c-text{
+    font-family: 'Signika Negative', sans-serif;
+    font-weight:bold;
+    margin-left:3px;
+    font-size: 13px;
+    margin-bottom:7px;
+}
+.card-auto-complete{
+    margin-top:8px;
+    margin-left:9px;
+}
+.news-bulla{
+    background-color: white;
+    width:220px;
+    display: flex;
+    flex-direction: column;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.news-img{
+    width:220px;
+    border-top-left-radius: 7px;
+    border-top-right-radius:7px;
+}
+.news-title{
+   padding:3px;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight:bold;
+
+}
+.news-div{
+    padding-left:8px;
+    padding-right:8px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.news-date{
+    color:blue;
+    font-weight:bold;
+    font-size: 14px;
+    font-family: 'Anek Odia', sans-serif;
+}
+.news-provider{
+    color:red;
+    font-weight:bold;
+    font-size:14px;
+    font-family: 'Anek Odia', sans-serif;
+}
+.news-bunga{
+    padding:5px;
+}
+.news-bunga-title{
+    font-size:25px;
+    font-weight:bold;
+    font-family: 'Anek Odia', sans-serif;
+    margin-left:30px;
+}
+.news-bunga-div{
+    margin-left:36px;
+    display:grid;
+    grid-gap:9px;
+    grid-template-columns: repeat(auto-fill,minmax(220px,1fr));
+    margin-bottom:10px;
+}
+.pagination{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:10px;
+}
+.news-loading{
+    font-family: 'Signika Negative', sans-serif;
+    margin-left:20px;
+    font-size:20px;
+    font-weight:bold;
+}
+.news-link{
+    display:flex;
+    padding:6px;
+    margin-left:auto;
+}
+.news-link-p{
+    font-family: 'Signika Negative', sans-serif;
+    color:gray;
+    font-weight:bold;
+}
+.news-link-a{
+    text-decoration: none;
+}
+.news-d{
+    margin-bottom:auto;
+   padding:3px;
+   
+}
+.news-d-p{
+    font-family: 'Signika Negative', sans-serif;
+    font-size:14px;
+    color:black;
+    
+}
+.news-search{
+    padding:10px;
+}
+.c-detail{
+    padding:10px;
+   
+}
+.c-detail-first-div{
+    display:flex;
+    align-items: center;
+    margin-bottom:10px;
+}
+.c-detail-img{
+    width:60px;
+   
+}
+.c-detail-title{
+    margin-left:20px;
+    font-family: 'Signika Negative', sans-serif;
+    font-size:27px;
+    font-weight:bold;
+}
+.c-detail-second-div{
+    display:flex;
+    width:100%;
+    align-items: center;
+    margin-bottom:10px;
+}
+.c-detail-p{
+    font-family: 'Signika Negative', sans-serif;
+    font-weight:bold;
+    color:gray;
+}
+.c-detail-third-div{
+    width:100%;
+    margin-bottom:10px;
+}
+
+.c-detail-fourth-div{
+    width:100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom:10px;
+}
+.c-detail-fourth-1{
+    font-family: 'Signika Negative', sans-serif;
+    font-size:28px;
+    font-weight:bold;
+}
+.c-detail-fourth-2{
+    font-family: 'Signika Negative', sans-serif;
+    color:gray;
+    font-size:15px;
+    font-weight:bold;
+}
+.c-detail-five-div{
+    padding:5px;
+    width:100%;
+    margin-bottom:20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.c-detail-five-box{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.c-detail-five-bulla{
+    width:500px;
+    padding-top:10px;
+    padding-bottom:10px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.c-detail-five-icon{
+   margin-right:10px;
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   color:gray;
+}
+.c-detail-five-text{
+    margin-right:auto;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight:bold;
+    color:gray;
+}
+.c-detail-five-value{
+    font-family: 'Signika Negative', sans-serif;
+    font-weight:bold;
+    color:black;
+    font-weight:bold;
+    font-size:18px;
+}
+.c-detail-horizontal-line{
+    width:500px;
+    height:1px;
+    background-color: gray;
+}
+.c-detail-five-bulla:hover{
+    background-color: #e8eaed;
+}
+.c-detail-six-p{
+    font-family: 'Signika Negative', sans-serif;
+    font-size:20px;
+    font-weight: bold;
+}
+
+.crypto-page{
+   padding:10px;
+}
+.crypto-page-p{
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom:10px;
+}
+.crypto-page-first-div{
+    margin-bottom:10px;
+}
+.crypto-page-second-div{
+    display:grid;
+    grid-gap:10px;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+}
+.c-detail-six-auto {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: 'Signika Negative', sans-serif;
+}
+.c-detail-six-auto >p{
+    padding:10px;
+}
+.website-link{
+   font-size:20px;
+   color:red;
+   font-weight:bold;
+    font-family: 'Signika Negative', sans-serif;
+}
+.ira-div{
+    margin-top:30px;
+    display:flex;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:30px;
+}
+.ira{
+    height:1px;
+    background-color: gray;
+    width:90%;
+}
+.c-detail-five-bulla-link{
+    padding:15px;
+    display:flex;
+    align-items:center;
+   
+}
+
+.c-detail-five-text-link{
+    width:400px;
+    margin-right:50px;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight:bold;
+    color:gray;
+}
+.c-detail-five-value-link{
+    font-family: 'Signika Negative', sans-serif;
+    font-weight:bold;
+    color:blue;
+    font-weight:bold;
+    font-size:14px;
+}
+a{
+    text-decoration: none;
+}
+.reload{
+    font-family: 'Signika Negative', sans-serif;
+    font-weight:bold;
+    font-size:25px;
+}
+.chart-second{
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+
+}
+.chart-second-title{
+    font-family: 'Signika Negative', sans-serif;
+    font-weight:bold;
+    font-size:23px;
+}
+.chart-second-value{
+    font-family: 'Signika Negative', sans-serif;
+    font-weight:bold;
+    font-size:14px;
+}
+
+
+
